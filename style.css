@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* About section */
+#about {
+    padding: 50px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+/* Portfolio section */
+#portfolio {
+    padding: 50px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.portfolio {
+    flex: 0 1 calc(25% - 20px); /* Adjust the width of each portfolio */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    text-align: center;
+}
+
+.portfolio img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 80%;
+}
+
+.portfolio h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.portfolio p {
+    margin: 0;
+}
+
+/* contact section */
+#contact {
+    padding: 50px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center; /* Center social media icons horizontally */
+}
+
+.contact-icons a {
+    margin: 0 10px; /* Add space between social media icons */
+}
+
+.contact-icons img {
+    width: 30px; /* Adjust icon size as needed */
+    height: auto;
+}
+
+.contact-address {
+    margin-top: 20px; /* Add space between social media icons and contact address */
+}
+
+.contact-address p {
+    margin: 5px 0; /* Add space between contact address lines */
+}
